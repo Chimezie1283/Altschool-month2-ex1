@@ -1,0 +1,105 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+  background-color: #000000;
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+.content {
+  position: relative;
+  margin: 10% 20%;
+}
+
+.white > p {
+  position: absolute;
+  background-color: white;
+  border-radius: 7px;
+  margin-top: -25px;
+  max-width: 400px;
+  margin: auto;
+  left: auto;
+  overflow: hidden;
+  align-content: center;
+  padding-top: 80px;
+  padding-inline: 40px;
+  padding-bottom: 40px;
+  font-weight: 600;
+  z-index: -1;
+}
+
+.pink > header {
+  position: absolute;
+  width: 300px;
+  top: -18px;
+  left: 5%;
+  background-color: #f83697;
+  border-radius: 4px;
+  margin: auto;
+  align-content: center;
+}
+
+header {
+  color: #000;
+  padding: auto;
+  height: 70px;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+    margin: auto;
+  }
+  .content {
+    margin: 10% 10%;
+    padding: 0;
+  }
+
+  .white > p {
+    max-width: 100%;
+    padding-inline: 10px;
+    padding-top: 65px;
+    padding-bottom: 20px;
+    font-size: small;
+  }
+
+  .pink > header {
+    width: 200px;
+    top: -18px;
+    left: 10%;
+    border-radius: 4px;
+    font-size: small;
+  }
+  header {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .content {
+    margin: o;
+    padding: 0;
+  }
+
+  .white > p {
+    max-width: 100%;
+    padding-inline: 10px;
+    padding-top: 65px;
+    padding-bottom: 20px;
+    font-size: small;
+  }
+
+  .pink > header {
+    width: 80%;
+    top: -18px;
+    left: 10%;
+    border-radius: 4px;
+    font-size: small;
+  }
+  header {
+    font-size: small;
+  }
+}
